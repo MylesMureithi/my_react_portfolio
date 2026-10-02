@@ -1,3 +1,28 @@
+:root {
+    --border-color: rgb(187, 179, 179);
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .hero {
-    height: 1vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 1.7em;
+    padding: 20px;
+}
+
+hr {
+    width: 4%;
+    border: 0.5px solid var(--border-color);
+    border-radius: 10px;
 }
