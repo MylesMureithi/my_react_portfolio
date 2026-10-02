@@ -1,0 +1,62 @@
+:root {
+    --base-color: green;
+    --base-hover: rgb(0, 182, 0);
+    --background-color: rgba(0, 255, 0, 0.3);
+}
+
+* {
+    font-family: 'Funnel Display';
+}
+
+.navbar-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: var(--background-color);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.left {
+    text-align: left;
+    display: inline-block;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: var(--base-color);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.name:hover {
+    cursor: pointer;
+    transform: translateY(-1.3px);
+    color: var(--base-hover);
+}
+
+.right a {
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 450;
+    color: var(--base-color);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.right a:hover {
+    cursor: pointer;
+    transform: translateY(-1.3px);
+    color: var(--base-hover);
+}
