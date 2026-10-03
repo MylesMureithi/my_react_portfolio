@@ -1,10 +1,25 @@
 .gen-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 600px;
     text-align: center;
     margin: 10px;
 }
 
+.gen-title {
+    font-size: 1.7em;
+    margin-top: 26px;
+}
+
+.gen-intro hr {
+    width: 10%;
+    border: 0.5px solid var(--border-color);
+    border-radius: 10px;
+    margin: 20px;
+}
+
 .gen-intro p {
     line-height: 1.6;
-    text-align: left;
 }

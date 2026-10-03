@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.hero {
+.hero-title {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -25,4 +25,40 @@ hr {
     width: 4%;
     border: 0.5px solid var(--border-color);
     border-radius: 10px;
+}
+
+/* -- Hero Content -- */
+
+.hero-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.split-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.split {
+    width: 70%;
+}
+
+/* -- Hero Message -- */
+.hero-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-message hr {
+    margin: 15px;
+    margin-bottom: 20px;
 }
