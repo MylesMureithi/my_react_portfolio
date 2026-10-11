@@ -4,7 +4,17 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-bottom: 30px;
+
+}
+
+.hero-message a {
+    color: var(--base-color);
+    transition: transform 0.3s ease;
+    margin: 30px;
+}
+
+.hero-message a:hover {
+  transform: translateY(-1.3px);
 }
 
 .hero-message hr {

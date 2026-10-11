@@ -1,13 +1,23 @@
-import Navbar from './components/common/Navbar'
-import Hero from "./pages/HomePage/Hero";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/common/Navbar/Navbar";
+import Footer from "./components/common/Footer/Footer";
+import Home from "./pages/Home/Home";
+import Skills from "./pages/Skills/Skills";
+import ScrollToTop from "./components/common/ScrollToTop/ScrollToTop";
 
 function App() {
-  return(
-    <>
+  return (
+    <div className="page">
+      <ScrollToTop />
       <Navbar />
-      <Hero />
-    </>
-
+      <main className="page-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   );
 }
 
