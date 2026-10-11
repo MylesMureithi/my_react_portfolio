@@ -2,6 +2,7 @@
     --base-color: green;
     --base-hover: rgb(0, 182, 0);
     --background-color: rgba(0, 255, 0, 0.3);
+    --navbar-height: 70px;
 }
 
 * {
@@ -9,13 +10,17 @@
 }
 
 .navbar-body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: auto;
-    padding: 20px;
-    margin-bottom: 60px;
+    height: var(--navbar-height);
+    padding: 0 20px;
     background-color: var(--background-color);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
