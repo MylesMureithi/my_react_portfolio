@@ -4,7 +4,7 @@ function ProgIntro() {
   return (
     <>
       <div className="prog-intro intro-card">
-        <h2 className="intro-title">Programming Languages</h2>
+        <h2 className="intro-title">Programming Experience</h2>
         <hr />
         <p>
           My current focus is on frontend web development, particularly building responsive and interactive websites with React. I believe in learning programming systematically, strengthening fundamentals before moving on to more complex tools and concepts.
