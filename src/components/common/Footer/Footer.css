@@ -1,0 +1,23 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: var(--base-color);
+    background-color: var(--background-color);
+    border-radius: 5px;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-socials a {
+  color: var(--base-color);
+  transition: transform 0.3s ease;
+}
+
+.footer-socials a:hover {
+  transform: translateY(-1.3px);
+}

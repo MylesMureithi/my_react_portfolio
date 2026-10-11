@@ -1,25 +1,23 @@
-.gen-intro {
+.intro-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
     text-align: center;
-    margin: 10px;
 }
 
-.gen-title {
+.intro-card .intro-title {
     font-size: 1.7em;
-    margin-top: 26px;
+    margin: 26px 0 0;
 }
 
-.gen-intro hr {
+.intro-card hr {
     width: 10%;
     border: 0.5px solid var(--border-color);
     border-radius: 10px;
     margin: 20px;
 }
 
-.gen-intro p {
+.intro-card p {
     line-height: 1.6;
 }

@@ -38,12 +38,14 @@ hr {
 
 /* -- Hero Content -- */
 .hero-content {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+    align-items: stretch;
     width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 0 40px;
 }
 
 .split-container {
