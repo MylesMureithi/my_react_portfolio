@@ -1,5 +1,6 @@
 import GenIntro from "../../components/Hero/GenIntro";
 import ProgIntro from "../../components/Hero/ProgIntro";
+import Message from "../../components/common/Message";
 import Footer from "../../components/common/Footer";
 import "./Hero.css";
 
@@ -21,11 +22,7 @@ function Hero() {
           <hr className="split" />
         </div>
 
-        <div className="hero-message">
-          <h2>Leave a Message!</h2>
-          <hr />
-          <p>Please feel free to contact me for any more information below!</p>
-        </div>
+        <Message />
       </div>
 
       <Footer />

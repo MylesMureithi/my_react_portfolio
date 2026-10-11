@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'
 
 function Navbar() {
@@ -11,7 +12,7 @@ function Navbar() {
             <nav className="right">
                 <NavLink to='/projects'>Projects</NavLink>
                 <NavLink to='/skills'>Skills</NavLink>
-                <Link to='/message'>Leave a Message!</Link>
+                <HashLink smooth to='/#message'>Leave a Message!</HashLink>
             </nav>
         </div>
     );
