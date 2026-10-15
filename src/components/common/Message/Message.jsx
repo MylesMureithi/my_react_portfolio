@@ -7,7 +7,7 @@ function Message() {
       <h2>Leave a Message!</h2>
       <hr />
       <p>Please feel free to contact me for any more information below!</p>
-      <a href="mailto:mylesthestudent@gmail.com" aria-label="Email me">
+      <a href="mailto:mylesthestudent@gmail.com" aria-label="Email me" target="_blank">
         <FaRegEnvelope size={30} />
       </a>
     </div>

@@ -1,0 +1,117 @@
+.beyond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px 40px;
+}
+
+.beyond-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beyond-header hr {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.beyond-title {
+  font-size: 1.7em;
+  padding: 20px;
+}
+
+.beyond-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+.beyond-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  color: var(--base-color);
+  background-color: var(--background-color);
+  border-radius: 5px;
+}
+
+.beyond-card-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.beyond-card-head h3 {
+  font-size: 1.2em;
+}
+
+.lang-level {
+  margin-bottom: 8px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.pill {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 14px;
+  border: 1px solid var(--base-color);
+  border-radius: 999px;
+}
+
+.pill-note {
+  font-size: 0.75em;
+  opacity: 0.8;
+}
+
+.beyond-footnote {
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+.beyond-text {
+  line-height: 1.6;
+}
+
+.beyond-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.beyond-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--base-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.beyond-link:hover {
+  transform: translateY(-1.3px);
+}
+
+@media (max-width: 700px) {
+  .beyond-grid {
+    grid-template-columns: 1fr;
+  }
+}

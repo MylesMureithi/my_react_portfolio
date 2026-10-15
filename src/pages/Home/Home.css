@@ -36,18 +36,6 @@ hr {
     padding: 0 40px;
 }
 
-.split-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-}
-
-.split {
-    width: 70%;
-}
-
 .pfp {
     display: block;
     margin: auto;
